@@ -7,7 +7,7 @@ package com.bridgelabz.MoodAnalyzer;
 	public class MoodAnalyzerTest {
 	    @Test
 	    public void testMoodAnalysis_whenMoodIsSad() {
-	        MoodAnalyzer moodAnalyzer = new MoodAnalyzer("This is a sad message");//Tc1.1 Refactor
+	        MoodAnalyzer moodAnalyzer = new MoodAnalyzer("This is a sad message");//Tc1.1 Refactore
 	        String mood = moodAnalyzer.analyseMood();
 	        Assert.assertEquals(mood,"SAD");
 	    }
